@@ -29,15 +29,31 @@ def print_data(l1,l2,l3,l4,l5,l6,l7,l8):
     return
 
 # read the file and fill the distribution lists
-def process_file(c1d,c1e,c2s,c2e,c3d,c3e,c4d,c4e):
+def process_file(c1d,c1e,c2d,c2e,c3d,c3e,c4d,c4e):
     with open('NCELPick4.csv') as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
         rowknt = 0
+        dayknt = 0
+        eveknt = 0
         for row in readCSV:
             print(row)
             print(row[0],row[1],row[2],row[3],row[4],row[5])
+            if row[1] == 'D':
+                dayknt += 1
+                c1d[int(row[2])] += 1
+                c2d[int(row[3])] += 1
+                c3d[int(row[4])] += 1
+                c4d[int(row[5])] += 1
+            if row[1] == 'E':
+                eveknt += 1
+                c1e[int(row[2])] += 1
+                c2e[int(row[3])] += 1
+                c3e[int(row[4])] += 1
+                c4e[int(row[5])] += 1
             rowknt += 1
         print ('Number of rows= ', rowknt)
+        print ('Number of day drawings= ', dayknt)
+        print ('Number of eve drawings= ', eveknt)
     return
 
 #
