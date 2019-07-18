@@ -1,6 +1,6 @@
 # p4.py
 #
-# Python 3 program to calculate NCEL Pick number distribution
+# Python 3 program to calculate NCEL Pick 4 number distribution
 #
 
 import csv
