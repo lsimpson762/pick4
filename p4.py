@@ -36,8 +36,8 @@ def process_file(c1d,c1e,c2d,c2e,c3d,c3e,c4d,c4e):
         dayknt = 0
         eveknt = 0
         for row in readCSV:
-            print(row)
-            print(row[0],row[1],row[2],row[3],row[4],row[5])
+#            print(row)
+#            print(row[0],row[1],row[2],row[3],row[4],row[5])
             if row[1] == 'D':
                 dayknt += 1
                 c1d[int(row[2])] += 1
@@ -59,7 +59,7 @@ def process_file(c1d,c1e,c2d,c2e,c3d,c3e,c4d,c4e):
 #
 # main program
 #
-print_data(col1d,col1e,col2d,col2e,col3d,col3e,col4d,col4e)
+# print_data(col1d,col1e,col2d,col2e,col3d,col3e,col4d,col4e)
 process_file(col1d,col1e,col2d,col2e,col3d,col3e,col4d,col4e)
 print ('--------')
-print_data(col1d,col1e,col2d,col2e,col3d,col3e,col4d,col4e)
+print_data(col1d,col2d,col3d,col4d,col1e,col2e,col3e,col4e)
