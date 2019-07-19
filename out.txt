@@ -1,0 +1,33 @@
+Number of rows=  6807
+Number of day drawings=  3063
+Number of eve drawings=  3743
+--------
+Day column 1 =  [309, 290, 320, 314, 299, 292, 321, 286, 308, 324]
+Day column 2 =  [288, 319, 327, 331, 319, 296, 295, 308, 268, 312]
+Day column 3 =  [351, 319, 270, 281, 322, 333, 304, 288, 307, 288]
+Day column 4 =  [294, 293, 277, 314, 333, 312, 295, 299, 323, 323]
+ 
+Eve column 1 =  [362, 384, 411, 350, 340, 401, 401, 380, 351, 363]
+Eve column 2 =  [356, 396, 398, 330, 370, 383, 402, 380, 386, 342]
+Eve column 3 =  [361, 371, 394, 391, 339, 389, 385, 353, 374, 386]
+Eve column 4 =  [358, 357, 369, 374, 417, 386, 354, 387, 381, 360]
+ 
+Day highest column 1 =  324  index =  9
+Day highest column 2 =  331  index =  3
+Day highest column 3 =  351  index =  0
+Day highest column 4 =  333  index =  4
+ 
+Day lowest column 1 =  286  index =  7
+Day lowest column 2 =  268  index =  8
+Day lowest column 3 =  270  index =  2
+Day lowest column 4 =  277  index =  2
+ 
+Eve highest column 1 =  411  index =  2
+Eve highest column 2 =  402  index =  6
+Eve highest column 3 =  394  index =  2
+Eve highest column 4 =  417  index =  4
+ 
+Eve lowest column 1 =  340  index =  4
+Eve lowest column 2 =  330  index =  3
+Eve lowest column 3 =  339  index =  4
+Eve lowest column 4 =  354  index =  6
